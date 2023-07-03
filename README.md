@@ -1,5 +1,7 @@
 ## Current project status
 
+This fork contains build fixes, and it also extends the technical documentation with the location of the client ID.
+
 This project will be on indefinite hiatus for the foreseeable future, and may not be maintained.
 Updates are not guaranteed.
 See [here](https://github.com/Haptic-Apps/Slide/issues/3449) for details.
@@ -87,6 +89,11 @@ If you have any questions, feel free to
 If this is your first time contributing to the project and want to tackle an
 easy issue, take a look at the issues labelled [`Good First Issue`](https://github.com/Haptic-Apps/Slide/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22).
 These issues have been marked as such because we believe they are easier to fix than other issues.
+
+If you would like to experiment with the application for educational purposes, you can change the default client ID in the following files:
+1. [Authentication.java#L34](https://github.com/rolandsz/Slide/blob/master/app/src/main/java/me/ccrama/redditslide/Authentication.java#L34)
+2. [Login.java#L49](https://github.com/rolandsz/Slide/blob/master/app/src/main/java/me/ccrama/redditslide/Activities/Login.java#L49)
+3. [Reauthenticate.java#L39](https://github.com/rolandsz/Slide/blob/master/app/src/main/java/me/ccrama/redditslide/Activities/Reauthenticate.java#L39)
 
 ## Changelog
 
